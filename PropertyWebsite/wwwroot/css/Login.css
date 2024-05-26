@@ -1,0 +1,12 @@
+﻿body {
+}
+
+.container {
+    display: flex;
+    height: auto;
+    width: fit-content;
+    background-color: gray;
+    padding-left: 150px;
+    padding-right: 150px;
+   
+}

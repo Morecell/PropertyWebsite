@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+<link rel="stylesheet" href="~/css/Home.css" />
+<script src="~/css/script.js"></script>
+</head>
+<body>
+<div class="text-center">
+        <h1 style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: white;">Property Master</h1>
+        <h1 style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: white;">Find the property that suits you.</h1>
+        <div class="homecenter">
+            <div style="display: inline-block;">
+                    <img src="~/image/buyer.gif" width="150px" height="250px" />
+            </div>
+            <div style="display: inline-block;">
+                    <h4 style="font-family:Calibri; color: white;">Are you a buyer or a seller?</h4>
+                    <a class="nav-link text-light btn btn-default btn-outline-dark" asp-area="" asp-controller="Home" asp-action="LoginUser">Buyer</a>
+            </div>
+                <div style="display: inline-block;">
+                    <label> </label>
+                    <label> </label>
+                    <label> </label>
+                    <label> </label>
+                    <label> </label>
+                </div>
+            <div style="display: inline-block;">
+                    <h4 style="font-family:Calibri; color: white;">Do you want to sell your property?</h4>
+                    <a class="nav-link text-light btn btn-default btn-outline-dark" asp-area="" asp-controller="Home" asp-action="LoginSeller">Seller</a>
+            </div>
+            <div style="display: inline-block;">
+                 <img src="~/image/agent.gif" width="150px" height="250px" />
+        </div>
+    </div>
+</div>
+    <div class="loader"></div>
+</body>
